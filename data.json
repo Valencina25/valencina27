@@ -1,0 +1,78 @@
+{
+  "titulo": "Blog del Pueblo valencina27",
+  "nav": [
+    {"label": "Artículos", "href": "#articulos"},
+    {"label": "Sobre mí", "href": "#sobre-mi"},
+    {"label": "Contacto", "href": "#contacto"}
+  ],
+  "textos": {
+    "tituloArticulos": "Artículos",
+    "leerMas": "Leer más",
+    "sobreMi": "Sobre mí",
+    "documentos": "Documentos",
+    "pdf": {
+      "titulo": "Huerto Ecológico Sostenible",
+      "archivo": "imagen/Huerto-Ecologico-Sostenible-Cultivando-el-Futuro.pdf"
+    },
+    "categorias": "Categorías",
+    "contacto": "Contacto",
+    "enviar": "Enviar",
+    "nombrePlaceholder": "Tu nombre",
+    "emailPlaceholder": "Tu email",
+    "mensajePlaceholder": "Tu mensaje",
+    "footer": "© 2026 Blog de Valencina. Escrito por Juan"
+  },
+  "articulos": [
+    {
+      "id": 1,
+      "titulo": "Dolmen de la Pastora",
+      "imagen": "imagen/Dolmen_de_La_Pastora_01.jpg",
+      "fecha": "13 de octubre de 2026",
+      "contenido": [
+        "El Dolmen de La Pastora es un monumento megalítico situado cerca de Valencina de la Concepción, en Sevilla. Data de la Edad del Cobre y se caracteriza por su corredor funerario y cámara sepulcral.",
+        "Su construcción refleja la importancia de los rituales funerarios en las sociedades prehistóricas de la península ibérica. Este dolmen es parte de un conjunto arqueológico que incluye otros dólmenes como el de Matarrubilla.",
+        "Empieza la semana santa algo especial para esta comunidad.",
+        "Pasada la feria de sevilla llega en mayo la marcha de la Hermanda al rocio."
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Block Valencina",
+      "imagen": "imagen/huerto.jpg",
+      "fecha": "14 de marzo de 2026",
+      "contenido": [
+        "Conectar con el entorno de nuestra maravillosa localidad...",
+        "Los huertos hoy tan de moda que dan una visión al ciudadano de ocio y productividad."
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "Nuestro Entorno",
+      "imagen": null,
+      "fecha": "14 de marzo de 2026",
+      "contenido": [
+        "Las empresas locales son el corazón de nuestra comunidad...",
+        "Compra en tu pueblo consume producto de tu localidad.",
+        "Tu pequeño gesto contribuye a que las pequeñas empresas y los autónomos tengan beneficio que a la postre te beneficiara a ti."
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "Vela de Junio",
+      "imagen": null,
+      "fecha": "15 de junio de 2026",
+      "contenido": ["Pronto la vela de Junio"]
+    }
+
+  ],
+  "sobreMi": {
+    "nombre": "Juan",
+    "descripcion": "¡Bienvenido! Soy Juan, escritor del blog. Este blog es un espacio para compartir historias de nuestro pueblo."
+  },
+  "contacto": {
+    "email": "valencina2012@hotmail.es",
+    "telefono": "652 864 329"
+  },
+  "categorias": ["Eventos"],
+  "velaJunio": "Pronto la vela de Junio"
+}
