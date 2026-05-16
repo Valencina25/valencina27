@@ -1,5 +1,5 @@
 {
-  "titulo": "Blog del Pueblo",
+  "titulo": "Blog del Pueblo valencina27",
   "nav": [
     {"label": "Artículos", "href": "#articulos"},
     {"label": "Sobre mí", "href": "#sobre-mi"},
@@ -32,7 +32,7 @@
         "El Dolmen de La Pastora es un monumento megalítico situado cerca de Valencina de la Concepción, en Sevilla. Data de la Edad del Cobre y se caracteriza por su corredor funerario y cámara sepulcral.",
         "Su construcción refleja la importancia de los rituales funerarios en las sociedades prehistóricas de la península ibérica. Este dolmen es parte de un conjunto arqueológico que incluye otros dólmenes como el de Matarrubilla.",
         "Empieza la semana santa algo especial para esta comunidad.",
-        "Pasada la feria de sevilla llega en mayo la marcha de la hermanda al rocio."
+        "Pasada la feria de sevilla llega en mayo la marcha de la Hermanda al rocio."
       ]
     },
     {
@@ -60,16 +60,10 @@
       "id": 4,
       "titulo": "Vela de Junio",
       "imagen": null,
-      "fecha": "15 de mayo de 2026",
+      "fecha": "15 de junio de 2026",
       "contenido": ["Pronto la vela de Junio"]
-    },
-    {
-      "id": 5,
-      "titulo": "Artículo de prueba",
-      "imagen": null,
-      "fecha": "15 de mayo de 2026",
-      "contenido": ["Este es un artículo de prueba"]
     }
+
   ],
   "sobreMi": {
     "nombre": "Juan",
