@@ -1,0 +1,200 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #050505;
+
+  background: url(../imagen/huerto.jpg) no-repeat center center / cover;
+
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: green;
+  background-image: linear-gradient(rgb(50, 171, 100), rgba(71, 229, 68, 0.669), rgb(34, 175, 21));
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  background: none;
+  border-radius: 0;
+  margin: 0;
+  font-size: 2em;
+}
+
+header nav {
+  margin-top: 15px;
+}
+
+header nav a {
+  color: rgb(227, 232, 233);
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 8px 15px;
+  background: #122839;
+  border-radius: 5px;
+}
+
+header nav a:hover {
+  background: #2980b9;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  gap: 30px;
+  background:rgb(116, 221, 72);
+  background-image:linear-gradient(rgb(0, 128, 98), rgba(170, 203, 39, 0.856), rgb(0, 255, 47), rgb(98, 224, 150) ,transparent );
+  border-radius: 25px;
+}
+
+#articulos {
+  flex: 2;
+}
+
+aside {
+  flex: 1;
+}
+
+h2 {
+  color: #2c3e50;
+  border-bottom: 2px solid #2e5269;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #0b0b0b;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+
+}
+
+.post {
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+}
+
+.post img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.post img:hover {
+  transform: scale(1.1);
+}
+
+.post h3 {
+  margin-bottom: 5px;
+}
+
+.fecha {
+  color: #0e0d0d;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.post a {
+  color: #354a58;
+  text-decoration: none;
+}
+
+.widget {
+  background: #59bd6b;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.widget h3 {
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.widget ul {
+  list-style: none;
+  padding: 0;
+}
+
+.widget ul li {
+  margin-bottom: 8px;
+}
+
+.widget ul li a {
+  color: #0f1214;
+  text-decoration: none;
+}
+
+.contacto {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  padding: 20px;
+  background:goldenrod;
+  background-image: radial-gradient(circle,  aqua, transparent);
+  border-radius: 25px;
+}
+
+.contacto p {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.contacto a {
+  color: black;
+  text-decoration: none;
+}
+
+.contacto h2 {
+  text-align: center;
+}
+
+.contacto form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contacto input,
+.contacto textarea {
+  padding: 10px;
+  border: 1px solid #e2c3c3;
+  border-radius: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contacto button {
+  padding: 10px;
+  background:#4098db;
+  color: rgb(23, 19, 19);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contacto button:hover {
+  background: #80a8b6;
+}
+
+footer {
+  background: #2c3e50;
+  color: rgb(191, 106, 106);
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
