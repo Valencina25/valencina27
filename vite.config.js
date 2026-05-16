@@ -1,8 +1,10 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+const base = process.env.VERCEL ? '/' : '/valencina27/'
+
 export default defineConfig({
-  base: '/valencina27/',
+  base,
   plugins: [react()],
   server: {
     port: 5177,
