@@ -9,7 +9,7 @@ export default function App() {
   const [data, setData] = useState(null)
 
   useEffect(() => {
-    fetch('/data.json')
+    fetch(`${import.meta.env.BASE_URL}data.json`)
       .then(res => res.json())
       .then(setData)
       .catch(err => console.error('Error al cargar datos:', err))
